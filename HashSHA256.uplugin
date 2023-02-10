@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "HashSHA256",
+	"Description": "Provides SHA256 functions.",
+	"Category": "Other",
+	"CreatedBy": "Blue Mountains GmbH",
+	"CreatedByURL": "https://bluemountains.io/",
+	"DocsURL": "https://github.com/BlueMountainsIO/ue-plugin-sha256",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/BlueMountainsIO/ue-plugin-sha256",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HashSHA256",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
