@@ -8,9 +8,10 @@
 	"CreatedBy": "Blue Mountains GmbH",
 	"CreatedByURL": "https://bluemountains.io/",
 	"DocsURL": "https://github.com/BlueMountainsIO/ue-plugin-sha256",
-	"MarketplaceURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1942cf125bcd4be5bdd8a206394adcee",
 	"SupportURL": "https://github.com/BlueMountainsIO/ue-plugin-sha256",
 	"CanContainContent": false,
+	"EngineVersion": "5.1",
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
@@ -18,7 +19,10 @@
 		{
 			"Name": "HashSHA256",
 			"Type": "Runtime",
-			"LoadingPhase": "PreLoadingScreen"
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
 		}
 	]
 }

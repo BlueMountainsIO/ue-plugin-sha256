@@ -1,4 +1,4 @@
-// Copyright Blue Mountains GmbH. All Rights Reserved.
+// Copyright 2023 Blue Mountains GmbH. All Rights Reserved.
 
 using UnrealBuildTool;
 using System.IO;

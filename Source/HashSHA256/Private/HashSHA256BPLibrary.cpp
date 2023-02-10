@@ -1,4 +1,4 @@
-// Copyright Blue Mountains GmbH. All Rights Reserved.
+// Copyright 2023 Blue Mountains GmbH. All Rights Reserved.
 
 #include "HashSHA256BPLibrary.h"
 #include "HashSHA256.h"

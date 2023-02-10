@@ -1,4 +1,4 @@
-// Copyright Blue Mountains GmbH. All Rights Reserved.
+// Copyright 2023 Blue Mountains GmbH. All Rights Reserved.
 
 #include "SHA256Hash.h"
 #include "GenericPlatform/GenericPlatformFile.h"
