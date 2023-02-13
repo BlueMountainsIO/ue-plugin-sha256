@@ -86,7 +86,7 @@ bool FSHA256Hash::FromFile(const FString& File)
 	return false;
 }
 
-FString FSHA256Hash::GetHash()
+FString FSHA256Hash::GetHash() const
 {
 	return Hash;
 }

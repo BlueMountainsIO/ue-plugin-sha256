@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Kismet/BlueprintFunctionLibrary.h"
 #include "SHA256Hash.generated.h"
 
 USTRUCT(BlueprintType)
@@ -21,7 +20,7 @@ public:
 	void FromArray64(const TArray64<uint8>& Arr);
 	bool FromFile(const FString& File);
 
-	FString GetHash();
+	FString GetHash() const;
 
 private:
 	FString Hash;
