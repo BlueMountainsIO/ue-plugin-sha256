@@ -1,7 +1,7 @@
 Unreal Engine SHA256 Functions
 ============
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 - Usable from Blueprints and C++
 - Using [PicoSHA2](https://github.com/okdshin/PicoSHA2 "PicoSHA2")
