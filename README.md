@@ -7,6 +7,7 @@ Unreal Engine SHA256 Functions
 - Using [PicoSHA2](https://github.com/okdshin/PicoSHA2 "PicoSHA2")
 - Supports hashing FString, TArray, TArray64 and files.
 - Files are read in blocks instead of loading the entire file into memory.
+- Async hash task in C++ using FSHA256FileHasherTask. See header file for example usage.
 
 Blueprint Usage
 ------
