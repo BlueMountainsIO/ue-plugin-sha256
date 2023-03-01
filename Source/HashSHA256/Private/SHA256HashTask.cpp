@@ -10,7 +10,11 @@ void FSHA256FileHasherTask::DoWork(void)
 	FSHA256Hash Hash;
 	Hash.FromFile(FullPathOnDisk);
 
+#if ENGINE_MAJOR_VERSION == 5
 	ResultQueue->Enqueue({ FullPathOnDisk, Hash.GetHash() });
+#else
+	ResultQueue->Enqueue(TPair<FString, FString>(FullPathOnDisk, Hash.GetHash()));
+#endif
 
 	ThreadScaleCounter->Decrement();
 }
