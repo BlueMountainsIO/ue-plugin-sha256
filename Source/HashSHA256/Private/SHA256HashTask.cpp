@@ -2,6 +2,7 @@
 
 #include "SHA256HashTask.h"
 #include "SHA256Hash.h"
+#include "Runtime/Launch/Resources/Version.h"
 
 void FSHA256FileHasherTask::DoWork(void)
 {

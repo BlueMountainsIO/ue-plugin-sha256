@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Async/AsyncWork.h"
 #include "HAL/ThreadSafeCounter.h"
+#include "Containers/Queue.h"
 
 /*
 	Example usage:
@@ -41,6 +42,10 @@
 	}
 */
 
+/*
+* Async task for hashing a file in a thread pool.
+* If the file does not exist an empty hash will be added to the result queue.
+*/
 class FSHA256FileHasherTask : public FNonAbandonableTask
 {
 public:
