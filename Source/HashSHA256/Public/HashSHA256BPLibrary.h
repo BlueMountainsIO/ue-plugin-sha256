@@ -10,7 +10,7 @@
  *
  */
 UCLASS()
-class UHashSHA256BPLibrary : public UBlueprintFunctionLibrary
+class HASHSHA256_API UHashSHA256BPLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_UCLASS_BODY()
 

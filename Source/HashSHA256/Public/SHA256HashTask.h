@@ -46,7 +46,7 @@
 * Async task for hashing a file in a thread pool.
 * If the file does not exist an empty hash will be added to the result queue.
 */
-class FSHA256FileHasherTask : public FNonAbandonableTask
+class HASHSHA256_API FSHA256FileHasherTask : public FNonAbandonableTask
 {
 public:
 	// Key: Filename, Value: Hash

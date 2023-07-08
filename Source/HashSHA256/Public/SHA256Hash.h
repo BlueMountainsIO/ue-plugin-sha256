@@ -6,7 +6,7 @@
 #include "SHA256Hash.generated.h"
 
 USTRUCT(BlueprintType)
-struct FSHA256Hash
+struct HASHSHA256_API FSHA256Hash
 {
 	GENERATED_BODY()
 
